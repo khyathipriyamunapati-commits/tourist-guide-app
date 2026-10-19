@@ -700,7 +700,7 @@ export const INITIAL_DESTINATIONS: Destination[] = [
 ];
 
 // Keep the original six destinations and add the new records.
-INITIAL_DESTINATIONS.push(...EXTRA_DESTINATIONS);
+INITIAL_DESTINATIONS.push(...EXTRA_DESTINATIONS); 
 
 export const INITIAL_GUIDES: GuideProfile[] = [
   {
